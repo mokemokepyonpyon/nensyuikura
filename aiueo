@@ -1,0 +1,4 @@
+import cv2
+a = "i.jpg"
+u = cv2.imread(a, 0)
+cv2.imwrite('o.jpg', u)
